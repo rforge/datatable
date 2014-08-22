@@ -10,7 +10,7 @@
 <li><code>DT[,sum(b*c),by=a]</code> is fast aggregation (<code>a</code>, <code>b</code> and <code>c</code> are column names).</li>
 <li><code>DT[i,b:=3.14]</code> is fast sub-assignment (to column <code>b</code>) by reference.</li>
 <li><code>DT[,p:=x/sum(x),by=group]</code> to add a new column by reference by group.</li>
-<li><code>fread("big.csv")</code> reads 50MB in 3 seconds vs 30 for <code>read.csv("big.csv")</code> and 10 for <code>read.csv("big.csv",colClasses,nrow,etc)</code>.</li>
+<li><code>fread("big.csv")</code> reads 50MB in 3 seconds vs 30 for <code>read.csv("big.csv")</code> vs 10 for <code>read.csv("big.csv",colClasses,nrow,etc)</code>.</li>
 </ul></p>
 <ul>
 <li>10+ times faster than <code>tapply()</code></li>
@@ -20,7 +20,7 @@
 
 <p>Latest stable release: <a href="http://cran.r-project.org/package=data.table" target="_top">1.9.2 on CRAN</a>, 27 Feb 2014</p>
 
-<p><a href="http://crantastic.org/packages/data-table" target="_top">User reviews</a>, <a href="http://rwiki.sciviews.org/doku.php?id=packages:cran:data.table" target="_top">data.table wiki</a> and Stack Overflow <a href="http://stackoverflow.com/questions/tagged/data.table" target="_top">data.table tag</a></p>
+<p><a href="http://crantastic.org/packages/data-table" target="_top">User reviews</a>, <a href="https://github.com/Rdatatable/data.table/wiki" target="_top">data.table wiki</a> and Stack Overflow <a href="http://stackoverflow.com/questions/tagged/data.table" target="_top">data.table tag</a></p>
 
 <p> <strong><font color="red">THE LATEST VERSION HAS NOW MOVED TO <a href="https://github.com/Rdatatable/data.table/" target="_top">GITHUB</a></font></strong> </p>
 
@@ -34,7 +34,9 @@ Or, if that fails, the last precompiled .zip for Windows copied to this page may
 </dl>
 
 <dl><dt>Presentations:</dt>
-<dd>2014.09 Four hour tutorial and talk, Matt Dowle and Arun Srinivasan, <a href="http://www.earl-conference.com/Agenda.html" target="_blank">EARL Conference Agenda</a>, London</dd>
+<dd>2014.10.30 data.table talk, Matt Dowle, SQL Relay, London</dd>
+<dd>2014.10.16 data.table talk, Matt Dowle, SQL Relay, Cardiff</dd>
+<dd>2014.09.15 SOLD OUT - Four hour tutorial and talk, Matt Dowle and Arun Srinivasan, <a href="http://www.earl-conference.com/Agenda.html" target="_blank">EARL Conference Agenda</a>, London</dd>
 <dd>2014.07 <a href="RinInsurance2014_Talk.pdf" target="_blank">data.table talk</a>, Matt Dowle, R/Insurance London [<a href="http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014/r-in-insurance,-conference-programme" target="_blank">Agenda</a>]</dd>
 <dd>2014.07 <a href="useR2014_Talk.pdf" target="_blank">data.table : fast and flexible data manipulation (talk)</a>, Matt Dowle, useR! Los Angeles [<a href="http://user2014.stat.ucla.edu/#tutorials" target="_blank">Agenda</a>]</dd>
 <dd>2014.06 <a href="useR2014_Tutorial.pdf" target="_blank">Three hour tutorial</a>, Matt Dowle, useR! Los Angeles</dd>
