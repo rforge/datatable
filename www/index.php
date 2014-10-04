@@ -11,21 +11,19 @@ $themeroot='http://r-forge.r-project.org/themes/rforge/';
 
 echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
-<!DOCTYPE html
-	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en   ">
-
-  <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title><?php echo $group_name; ?></title>
-	<link href="<?php echo $themeroot; ?>styles/estilo1.css" rel="stylesheet" type="text/css" />
-  </head>
-
-<frameset cols="*,310">
-  <frame src="left.htm" />
-  <frame src="right.htm" noresize="noresize"/>
-</frameset>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="2;url=https://github.com/Rdatatable/data.table/wiki">
+        <script type="text/javascript">
+            window.location.href = "https://github.com/Rdatatable/data.table/wiki"
+        </script>
+        <title>data.table has moved to GitHub</title>
+    </head>
+    <body>
+        If you are not redirected automatically in 2 seconds, follow the <a href='https://github.com/Rdatatable/data.table/wiki'>link to homepage on GitHub</a>
+    </body>
 </html>
 
 
